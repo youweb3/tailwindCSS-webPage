@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="bg-emerald-400 p-3 flex justify-between">
+        <!-- <h1 class="text-red-500 border bg-blue-500">Hello World</h1> -->
+        <h1 class="text-black text-3x1 font-bold sm:text-xl">Tailwind Website</h1>
+        <nav>
+            <a href="index.html" class="m-1 border text-emerald-900 bg-emerald-200 rounded border-emerald-700 p-0.5 block text-md sm:inline sm: text-xl hover:bg-red-500">Home</a>
+            <a href="/src/gallery.html" class="m-1 border text-emerald-900 bg-emerald-200 rounded border-emerald-700 p-0.5 hover:bg-red-500">Gallery</a>
+            <a href="/src/about.html" class="m-1 border text-emerald-900 bg-emerald-200 rounded border-emerald-700 p-0.5 hover:bg-red-500">About Us</a>
+            <a href="/src/contact.html" class="m-1 border text-emerald-900 bg-emerald-200 rounded border-emerald-700 p-0.5 hover:bg-red-500">Contact</a>
+        </nav>
+    </header>
+
+
+<!-- 
+    <div class="flex">
+        <p class="flex-auto text-yellow-400 border-2 border-purple-200">How Are you World?</p>
+        <p class="flex-auto">Goodbye World.</p>
+    </div>
+
+    <div class="flex flex-">
+        <div class="border border-black bg-blue-500 flex-auto">1</div>
+        <div class="border border-black bg-yellow-500 flex-initial">2</div>
+        <div class="border border-black bg-red-500 flex-1">3</div>
+    </div>
+
+    <div class="p-2 flex justify-center bg-green-200 ">
+        <a href="./index.html" class="m-1 p-1 bg-green-400 rounded-md hover:bg-blue-500">Home</a>
+        <a href="./gallery.html" class="m-1 p-1 bg-green-400 rounded-md hover:bg-blue-500">Gallery</a>
+        <a href="" class="m-1 p-1 bg-green-400 rounded-md hover:bg-blue-500">Home</a>
+        <a href="" class="m-1 p-1 bg-green-400 rounded-md hover:bg-blue-500">Home</a>
+    </div> -->
+       
+    <!-- gallery section -->
+    <div class="flex justify-center bg-gradient-to-r from-blue-200 to-emerald-300">
+        <div class="grid grid-cols-3 gap-x-60 gap-y-4  p-4">
+            <img class="w-40 h-40 border-2 border-emerald-900 p-1 " src="./image/1.jpg" alt="">
+            <img class="w-64 h-64 border-2 border-emerald-900 p-1" src="./image/2.jpg" alt="">
+            <img class="w-64 h-64 border-2 border-emerald-900 p-1" src="./image/3.jpg" alt="">
+            <img class="w-64 h-64 border-2 border-emerald-900 p-1" src="./image/4.jpg" alt="">
+            <img class="w-64 h-64 border-2 border-emerald-900 p-1" src="./image/5.jpg" alt="">
+            <img class="w-64 h-64 border-2 border-emerald-900 p-1" src="./image/6.jpg" alt="">
+            <img class="w-64 h-64 border-2 border-emerald-900 p-1" src="./image/7.jpg" alt="">
+            <img class="w-64 h-64 border-2 border-emerald-900 p-1" src="./image/8.jpg" alt="">
+            <img class="w-64 h-64 border-2 border-emerald-900 p-1" src="./image/9.jpg" alt="">
+        </div>
+    </div>
+
+    <!-- <div class="mx-20 grid grid-cols-3 gap-2">
+        <div class="size border bg-blue-500">1</div>
+        <div class="size border bg-blue-500">1</div>
+        <div class="size border bg-blue-500">1</div>
+        <div class="size border bg-blue-500">1</div>
+        <div class="size border bg-blue-500">1</div>
+        <div class="size border bg-blue-500">1</div>
+        <div class="size border bg-blue-500">1</div>
+        <div class="size border bg-blue-500">1</div>
+        <div class="size border bg-blue-500">1</div>
+        <div class="size border bg-blue-500">1</div>
+        <div class="size border bg-blue-500">1</div>
+        <div class="size border bg-blue-500">1</div>
+    </div> -->
+
+           <!-- foooter section -->
+
+    <footer class="bg-emerald-400 flex justify-center p-4">
+        <div class="text-center">
+            <nav>
+                <a href="#home" class="m-1 border text-emerald-900 bg-emerald-200 rounded border-emerald-700 p-0.5 ">Home</a>
+                <a href="#gallery" class="m-1 border text-emerald-900 bg-emerald-200 rounded border-emerald-700 p-0.5">Gallery</a>
+                <a href="about.html" class="m-1 border text-emerald-900 bg-emerald-200 rounded border-emerald-700 p-0.5">About Us</a>
+                <a href="#contact" class="m-1 border text-emerald-900 bg-emerald-200 rounded border-emerald-700 p-0.5">Contact</a>
+            </nav>
+                <p class="p-2">&copy; Cuan Swan ltd.</p>
+                <p>44 Address Road <br>
+                    LivingPlace<br>
+                    4444
+                </p>
+                <p>brought to you by TailwindCSS</p>
+        </div>
+    </footer>
+
+</body>
+</html> 
